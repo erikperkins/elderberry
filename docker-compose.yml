@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  elderberry:
+    image: erikperkins/elderberry
+    restart: on-failure
+    ports:
+      - 9200:9200
